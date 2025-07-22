@@ -16,7 +16,7 @@ The objective of this lab assignment is to practice using advanced JavaScript th
     ```
     _What do you expect to be logged?_
 
-4. Open your developer tools and view what is printed in the console. You'll see that the current name was printed.
+4. Open your developer tools and view what is printed in the console. You'll see that the current name was printed.  
     _This is the effect of hoisting. When the browsert interprets our JavaScript code it hoisted the declaration for the variable name and then assigned it to the current name so when name was logged, it is defined._
 5. Change the var keyword to let
 6. Save and refresht he browser
@@ -59,7 +59,7 @@ The objective of this lab assignment is to practice using advanced JavaScript th
 6. Call the function
 7. Save and refresh the browser. You should now see the first fruit printed in the console
 8. Declare another function that will print your favorite fruit.
-9. Call the function
+9. Call the function  
     _Your code should look similar to:_
     ````
     let fruits = ['apple', 'tomato', 'banana'];
@@ -76,7 +76,7 @@ The objective of this lab assignment is to practice using advanced JavaScript th
     printFruits();
     printFavFruit();
     ````
-10. Save and refresh the browser.
+10. Save and refresh the browser.  
     _Why was the printFavFruit function able to log favFruit?_
 11. Remove the declaration of favFruit in the global scope
 12. Declare favFruit using the let keyword in the printFruits function
